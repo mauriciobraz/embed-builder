@@ -1,0 +1,27 @@
+{
+  "name": "@embed-builder/bot",
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx/esm src/app.ts",
+    "clean": "rm -rf node_modules/ .build/",
+    "lint": "biome lint src/",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sapphire/decorators": "^6.1.0",
+    "@sapphire/framework": "^5.1.0",
+    "@sapphire/pieces": "^4.2.2",
+    "@sapphire/plugin-hmr": "^3.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "remeda": "^1.59.0",
+    "tslog": "^4.9.2",
+    "tsx": "^4.7.2",
+    "znv": "^0.4.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@sapphire/plugin-utilities-store": "^2.0.2",
+    "vitest": "^1.2.0"
+  }
+}
