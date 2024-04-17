@@ -16,7 +16,8 @@
 		"rules": {
 			"recommended": true,
 			"suspicious": {
-				"noEmptyInterface": "off"
+				"noEmptyInterface": "off",
+				"noConfusingLabels": "off"
 			}
 		}
 	}
